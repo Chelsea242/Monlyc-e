@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MyLycée</string>
+    <string name="app_tagline">Gestion intelligente des inscriptions scolaires</string>
+    <string name="school_name">Lycée d\'Excellence</string>
+    <string name="welcome_message">Bienvenue sur le portail MyLycée</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Tableau de bord</string>
+    <string name="nav_students">Inscrits</string>
+    <string name="nav_register">Nouvelle Inscription</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Formulaire d'inscription -->
+    <string name="title_registration">Formulaire d\'Inscription</string>
+    <string name="title_edit_student">Modifier l\'Élève</string>
+    <string name="subtitle_registration">Veuillez renseigner les informations exactes de l\'élève</string>
+    <string name="label_nom">Nom</string>
+    <string name="hint_nom">Ex: MOUKASSA</string>
+    <string name="label_prenom">Prénom</string>
+    <string name="hint_prenom">Ex: Jean-Pierre</string>
+    <string name="label_date_naissance">Date de Naissance</string>
+    <string name="hint_date_naissance">JJ/MM/AAAA</string>
+    <string name="label_lieu_naissance">Lieu de Naissance</string>
+    <string name="hint_lieu_naissance">Ex: Brazzaville</string>
+    <string name="label_sexe">Sexe</string>
+    <string name="sexe_masculin">Masculin</string>
+    <string name="sexe_feminin">Féminin</string>
+    <string name="label_ville">Ville</string>
+    <string name="hint_ville">Ex: Brazzaville, Pointe-Noire...</string>
+    <string name="label_quartier">Quartier</string>
+    <string name="hint_quartier">Ex: Bacongo, Poto-Poto...</string>
+    <string name="label_adresse">Adresse complète</string>
+    <string name="hint_adresse">Ex: 12 Rue des Palmiers</string>
+    <string name="label_telephone">Numéro de Téléphone</string>
+    <string name="hint_telephone">Ex: +242 06 123 45 67</string>
+    <string name="label_niveau">Niveau scolaire</string>
+    <string name="label_classe">Classe attribuée</string>
+    <string name="label_serie">Série</string>
+    <string name="btn_submit_registration">Valider l\'inscription</string>
+    <string name="btn_save_changes">Enregistrer les modifications</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="btn_close">Fermer</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_call">Appeler</string>
+    <string name="btn_edit">Modifier</string>
+
+    <!-- Erreurs et validations -->
+    <string name="error_required_field">Ce champ est obligatoire</string>
+    <string name="error_invalid_phone">Numéro de téléphone invalide</string>
+    <string name="error_invalid_date">Date de naissance invalide</string>
+    <string name="success_registered">Élève inscrit avec succès dans Firebase !</string>
+    <string name="success_updated">Informations mises à jour avec succès !</string>
+    <string name="success_deleted">Élève supprimé avec succès.</string>
+
+    <!-- Filtres et listes -->
+    <string name="search_hint">Rechercher par nom, prénom ou classe...</string>
+    <string name="filter_all_levels">Tous les niveaux</string>
+    <string name="filter_level_seconde">Seconde</string>
+    <string name="filter_level_premiere">Première</string>
+    <string name="filter_level_terminale">Terminale</string>
+    <string name="filter_all_series">Toutes séries</string>
+    <string name="empty_students_title">Aucun élève trouvé</string>
+    <string name="empty_students_desc">Aucun élève ne correspond aux critères sélectionnés. Cliquez sur « Nouvelle Inscription » pour en ajouter un.</string>
+
+    <!-- Tableau de bord -->
+    <string name="dashboard_total_students">Total Inscrits</string>
+    <string name="dashboard_boys">Garçons</string>
+    <string name="dashboard_girls">Filles</string>
+    <string name="dashboard_levels_breakdown">Répartition par Niveau</string>
+    <string name="dashboard_series_breakdown">Répartition par Série</string>
+    <string name="dashboard_quick_actions">Actions Rapides</string>
+    <string name="dashboard_recent_registrations">Inscriptions Récentes</string>
+    <string name="view_all">Voir tout</string>
+
+    <!-- Paramètres et Firebase -->
+    <string name="firebase_status_connected">Firebase Connecté (Temps Réel)</string>
+    <string name="firebase_status_offline">Mode Hors Ligne / Cache Actif</string>
+    <string name="settings_database_url">URL Firebase Realtime Database</string>
+    <string name="settings_about">À propos de MyLycée</string>
+    <string name="settings_version">Version 1.0 - Éco-système Scolaire</string>
+    <string name="settings_load_demo_data">Charger des élèves exemples</string>
+    <string name="settings_clear_all">Purger les données locales</string>
+    <string name="confirm_delete_title">Confirmation de suppression</string>
+    <string name="confirm_delete_message">Voulez-vous vraiment supprimer définitivement le dossier de cet élève ?</string>
+</resources>

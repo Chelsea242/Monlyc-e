@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs principales de MyLycée -->
+    <color name="colorPrimary">#1D4ED8</color>
+    <color name="colorPrimaryVariant">#1E3A8A</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#0D9488</color>
+    <color name="colorSecondaryVariant">#0F766E</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorAccent">#F59E0B</color>
+
+    <!-- Thème Clair -->
+    <color name="window_background">#F8FAFC</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="input_background">#F1F5F9</color>
+    <color name="divider_color">#E2E8F0</color>
+
+    <!-- Badges & Accents -->
+    <color name="badge_level_bg">#EEF2FF</color>
+    <color name="badge_level_text">#4338CA</color>
+    <color name="badge_serie_bg">#FEF3C7</color>
+    <color name="badge_serie_text">#B45309</color>
+    <color name="badge_gender_bg">#F1F5F9</color>
+    <color name="badge_gender_text">#334155</color>
+    <color name="primary_light_alpha">#1A2563EB</color>
+
+    <!-- Statuts et utilitaires -->
+    <color name="success_color">#10B981</color>
+    <color name="warning_color">#F59E0B</color>
+    <color name="danger_color">#EF4444</color>
+    <color name="info_color">#0284C7</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

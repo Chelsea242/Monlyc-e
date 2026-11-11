@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Mode Sombre) -->
+    <style name="Theme.MyApplication" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/badge_level_bg</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryContainer">@color/badge_serie_bg</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorOutlineVariant">@color/divider_color</item>
+        <item name="android:statusBarColor">#0B0F19</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Thème plein écran pour la page Splash en mode sombre -->
+    <style name="Theme.MyApplication.Splash" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash_gradient</item>
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#0F172A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Style d'animation pour les boîtes de dialogue -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <!-- Style de dialogue à coins arrondis avec animation -->
+    <style name="CustomDialogTheme" parent="ThemeOverlay.Material3.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "MyLycée",
+  "description": "Application de gestion des inscriptions scolaires pour lycée avec Firebase Realtime Database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
